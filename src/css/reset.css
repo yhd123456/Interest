@@ -1,0 +1,18 @@
+/*reset*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+	margin:0;padding:0;border:0;}   
+body{font:12px"微软雅黑","Arial Narrow",'HELVETICA','PingFang SC', 'Microsoft YaHei', 'SimHei', 'Arial', 'SimSun';background:#fff;-webkit-text-size-adjust:100%; color: #222222;}   
+a{color: #222222;text-decoration:none;}   
+a:link{color:#222222}   
+a:visited{color:#ad986d;}   
+a:hover,a:active,/*a:focus{color:#f85959;text-decoration:none;}*/
+em{font-style:normal}   
+ul,ol,i{list-style-type:none;} 
+img{border:0;vertical-align:middle}   
+table{border-collapse:collapse;border-spacing:0}   
+p{word-wrap:break-word}  
+select,input,img,select{vertical-align:middle;}   
+
+/*清除浮动*/
+.clearfix:after { content: ".";display: block; clear: both; visibility: hidden; line-height: 0; height: 0; font-size:0;}
+.clearfix { *zoom:1;}
